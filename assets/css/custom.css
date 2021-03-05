@@ -1,0 +1,763 @@
+/*
+---------- <<<TABLE OF CONTENTS>>> ----------
+
+Ctrl + F on '>Name_of_section'
+
+    1: >General_styling 
+    2: >Topbar
+    3: >Home_login
+    4: >Home_view
+    5: >Home_admin
+    6: >Not_found
+    7: >Overons
+    8: >IJ_headings
+    9: >Pre_reflectie_view 
+    10: >Reflectie_view
+    11: >Post_reflectie_view
+    12: >Overzicht_view
+    13: >Grafieken_view
+    14: >Reflectiebeheer
+    15: >Footer 
+    16: >Overwrite classes
+*/
+
+
+/* ---------- >General_styling ---------- */ 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    margin-bottom: 80px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ij-body {
+    box-shadow: -5px -5px 10px -1px rgba(0,0,0,.25);
+    padding-top: 20px;
+}
+
+.ij-body-sm {
+    box-shadow: 0px -9px 10px -4px rgba(0, 0, 0, 0.30);
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.help {
+    position: relative;
+}
+
+.helpbutton {
+    font-size: 26px; 
+    text-decoration: none; 
+    position: absolute; 
+    color: #CECEDD;
+    top: 5px; 
+    right: 0px;
+    z-index: 100;
+}
+
+.helpbutton:hover {
+    color: #CECEDD;
+    text-decoration: none; 
+}
+
+.helpbutton:active {
+    color: #CECEDD;
+    text-decoration: none; 
+}
+
+.helpbutton:focus {
+    color: #CECEDD;
+    text-decoration: none; 
+}
+
+.feedback-div {
+    width: 25%
+}
+/* ---------- >Topbar ---------- */
+.ij-navbar {
+    font-size: 16px;
+}
+
+#tp-header {
+    top: -1px;
+}
+
+#tp-icon {
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    vertical-align: top;
+    margin-top: -7px;
+    border: 1px solid rgba(1, 1, 0, .20);
+}
+
+.navbar-brand {
+    padding-left: 40px;
+}
+
+.nav-menu {
+    padding-left: 25px;
+}
+
+.ij-reflect-brand {
+    color: #1279bd !important;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+}
+
+.ij-reflect-brand:hover {
+    color: #039BE5 !important;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+}
+
+.menubutton:hover {
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.25);
+}
+
+.ij-topbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+.ij-topbar .nav-menu li:hover {
+    background-color: #F0F0F0;
+}
+
+.activelink {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.50);
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+/*Hamburger*/
+.navbar-toggle {
+    border: 0;
+    float: left;
+    padding: 18px;
+    margin: 0;
+    border-radius: 0;
+    background-color: #f3f3f3;
+}
+
+/* ---------- >Home_login  ----------- */ 
+#hml_content {
+    padding-top: 140px;
+}
+
+#hml_line {
+    padding-top: 80px;
+}
+
+/* ---------- >Home_view  ----------- */ 
+#home-start {
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#hm_content {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#hm_line {
+    color: #00C853;
+    text-decoration: none;
+}
+
+/* ---------- >Home_admin  ----------- */ 
+#hma_content {
+    padding-top: 140px;
+}
+
+#hm-line-admin {
+    color: #607D8B;
+    text-decoration: none;
+}
+
+/* ---------- >Not_found  ----------- */ 
+#nf_content {
+    padding-top: 50px;
+}
+
+/* ---------- >Overons  ----------- */ 
+#overons_text {
+    padding-top: 160px;
+}
+
+/* ---------- >IJ_headings ---------- */
+.ij-heading {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    padding-bottom: 55px;
+}
+
+.ij-heading-sm {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.ij-heading-blue {
+    background-color: #0086b3;
+    margin-bottom: 20px;
+}
+
+#ij-heading-huidigeperiode { background-color: #0288D1; }
+#ij-heading-voltooideperiodes { background-color: #8D6E63; }
+#ij-heading-pre { background-color: #66BB6A; }
+#ij-heading-reflectie { background-color: #26A69A; }
+#ij-heading-reflectiebeheer { background-color: #607D8B; }
+#ij-heading-post { background-color: #00BFA5; }
+#ij-heading-overons { background-color: #9E9E9E; }
+#ij-heading-home { background-color: #1279bd; }
+#ij-heading-grafieken { background-color: #DAB377; }
+#ij-heading-notfound { background-color: #607D8B; }
+
+/* ---------- >Pre_reflectie_view ---------- */ 
+#prv-content {
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+#prv-editbutton {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#prv-overzichtbutton {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+    background-color: #00BCD4;
+    text-decoration: none;
+    color: white;
+}
+
+/* ---------- >Reflectie_view ---------- */
+.semi-highlighted {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+#rv-category { 
+    text-align: left; 
+    color:white
+}
+
+.highlighted {
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, .28) !important;
+}
+
+#rv-gradationleft, #rv-gradationright {
+    height: 200px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 180px;
+}
+
+#rv-gradationleft-sub, #rv-gradationright-sub {
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -2px transparent;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+#rv-gradationleft {
+    float: left;
+    border-right: 1px solid #e5e5e5;
+}
+
+#rv-gradationright {
+    float: right;
+    border-left: 1px solid #e5e5e5;
+}
+
+#rv-question {
+    color: #1279BD;
+    z-index: 1; 
+    text-align: center; 
+    padding-bottom: 13px; 
+    background-color: white;
+    border-bottom-color: rgba(128, 128, 128, 0.15);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+    box-shadow: 0px 1px 10px -4px rgba(0,0,0,0.5);
+}
+
+#rv-gradations {
+    margin-top:20px;   
+    /*padding: 20px;*/
+    /*    border-bottom-style: solid;
+        border-color: rgba(207, 216, 220, 0.38);
+        border-width: 1px;*/
+    height: 230px;
+    max-height: 230px;
+}
+
+#rv-gradationlabels {
+    margin-top: 50px;
+}
+
+#next-button, #previous-button{
+    width: 175px;
+    padding: 15px;
+    margin-top: 7px;
+    z-index: 1;
+    position: relative;
+}
+
+#next-button {
+    position: absolute;
+    left: 300%;
+}
+
+#previous-button {
+    position: absolute;
+    right: 300%;
+}
+
+#rv-navigation {
+    width: auto;
+}
+
+#rv-questionprogress {
+    text-align: center; 
+    color: #9d9d9d;  
+}
+
+.ij-page-answered {
+    background-color: #E3F2FD !important;
+}
+
+.ij-page-selected {
+    font-weight: bolder;
+}
+
+.ij-page-selected a {
+    border-bottom-width: 5px !important;
+    border-bottom-color: #337AB7 !important;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.affix {
+    top: 50px;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 74px;
+}
+
+.collapsable:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+}
+
+.collapsable.collapsed:after {
+    content: "\e080";
+}
+
+.gradation-container {
+    margin-bottom: 10px;
+}
+
+.gradation input[type="radio"] {
+    display: none;
+}
+
+.gradation input[type="radio"]:checked ~ label {
+    background: rgba(20,134,210,1);
+    background: -moz-linear-gradient(-45deg, rgba(20,134,210,1) 11%, rgba(20,134,210,1) 14%, rgba(48,124,177,1) 78%, rgba(58,121,166,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(11%, rgba(20,134,210,1)), color-stop(14%, rgba(20,134,210,1)), color-stop(78%, rgba(48,124,177,1)), color-stop(100%, rgba(58,121,166,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(20,134,210,1) 11%, rgba(20,134,210,1) 14%, rgba(48,124,177,1) 78%, rgba(58,121,166,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(20,134,210,1) 11%, rgba(20,134,210,1) 14%, rgba(48,124,177,1) 78%, rgba(58,121,166,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(20,134,210,1) 11%, rgba(20,134,210,1) 14%, rgba(48,124,177,1) 78%, rgba(58,121,166,1) 100%);
+    background: linear-gradient(135deg, rgba(20,134,210,1) 11%, rgba(20,134,210,1) 14%, rgba(48,124,177,1) 78%, rgba(58,121,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1486d2', endColorstr='#3a79a6', GradientType=1 );
+}
+
+.ij-label {
+    border-width: 6px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 0px 10px 0px;
+    box-shadow: 0px 4px 7px 0px rgba(1, 1, 1, 0.3);
+}
+
+/*@media (max-width: 1200px) {
+    .ij-label {
+        border-width: 6px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        margin: 5px;
+    }
+
+    #next-button, #previous-button{
+        width: 130px;
+        font-size: 13px; 
+    }
+
+    #next-button {
+        margin-left: 50px;
+    }
+
+    #previous-button {
+        margin-right: 50px;
+    }
+}*/
+
+/*@media (max-width: 992px) {
+    .ij-label {
+        border-width: 3px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin: 5px;
+    }
+
+    #rv-gradations {
+        padding: 0px;
+        margin: 20px 2px auto;
+    }
+
+    #rv-navigation {
+        width: 100%;
+    }
+}*/
+
+#rv-leftright {
+    width: 900px;
+    margin-top: 10px;
+}
+
+.ij-label-light {
+    border-color: #ECEFF1
+}
+
+.ij-label-medium {
+    border-color: #CFD8DC
+}
+
+.ij-label-dark {
+    border-color: #B0BEC5
+}
+/* ---------- >Post_reflectie_view ---------- */
+
+
+/* ---------- >Periodes_view ---------- */
+
+#vp-period-table {
+    margin-top: 40px;
+}
+
+.vp-table-body td {
+    position: relative;
+}
+
+.vp-edit {
+    float: right;
+    margin-right: 2px;
+}
+
+.vp-remove {
+    float: right;
+}
+
+/* ---------- >Overzicht_view ---------- */
+.no-border-cell {
+    border:none !important;
+}
+
+#reflection-count {
+    min-width: 250px;
+    margin: 5px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#periode-info {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+#periode-info-div {
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.10);
+    border-bottom: 1px solid #FAFAFA;
+}
+
+#period-naam {
+    margin-top: 20px;
+    padding-top: 0px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admin-menu-well {
+    margin-top: 20px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#period-dropdown {
+    margin-top: 15px;
+}
+
+#voltooi-periode-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4DB6AC;
+    text-decoration: none;
+    color: white;
+}
+
+#voltooi-periode-modal-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4DB6AC;
+    text-decoration: none;
+    color: white;
+}
+
+#hpv-table-div {
+    padding-bottom: 25px;
+    padding-top: 5px;
+}
+
+.hpv-alert {
+    margin-top: 10px;
+}
+
+#reflectie-huidigeperiode-tabel {
+    box-shadow: 0px 2px 4px 1px rgb(170, 170, 170);
+    margin-top: 5px;
+    background-color: white;
+}
+
+#period-info-collapse {
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 1px solid #E0E0E0;
+}
+
+#table-dataless-warning {
+    margin-top: 65px;
+    text-align: center;
+    padding: 20px;
+}
+
+#vl_line {
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+#vl_line_del {
+    color: #c9302c;
+    text-decoration: none;
+}
+
+#table-warning-sm {
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#reflection-table {
+    margin-bottom: 0px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.my-tablehead {
+    background-color: #E2E2E2;
+}
+
+.table-corner-width {
+    width: 12%;
+}
+
+.t-reflecties-head {
+    margin: auto;
+    background-color: #DAB377;
+    color: white;
+}
+
+.t-reflecties-head2 {
+    margin: auto;
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.t-reflecties-body {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.t-reflecties-body2 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ---------- >Grafieken_view ---------- */
+
+.gv-chartsection {
+    box-shadow: 0px 2px 4px 1px rgb(170, 170, 170);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+#gv-rightsection {
+    display: block;
+}
+
+#gv-rightsection {
+    display: none;
+}
+
+.gv-difference {
+    display: none;
+    padding: 24px;
+}
+
+.gv-form {
+    padding: 18px;
+}
+
+.gv-chart {
+    height: 630px;
+}
+
+#gv-nodata-left, #gv-nodata-right {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.gv-container {
+    margin-top: 20px;
+}
+
+/* ---------- >Reflectiebeheer ---------- */
+.editgroup {
+    box-shadow: 0px 2px 4px 1px rgb(170, 170, 170);
+}
+
+.actionbutton {
+    /*padding: 6px 9px;*/
+}
+
+.actionbutton::after {
+    margin: 0!important;
+}
+
+.actionbuttonform {
+    display: inline-block;
+}
+
+.actie_column {
+    width: 50px;
+}
+
+#question_width {
+    width: 40px;
+}
+
+.table-heading {
+    width: 27%;
+}
+
+/* ---------- >404 ---------- */ 
+
+
+
+/* ---------- >Footer ---------- */ 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* ---------- >Overwrite classes ---------- */ 
+.remove_margin_bottom {
+    margin-bottom: 0px;
+}
+
+.alter-dropdown {
+    width: 220px;
+    padding: 12px;
+
+}
+
+.alter-dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 220px;
+}
+
+.alter-dropdown-menu a {
+    width: 100%;
+    height: 100%;
+    line-height: 44px!important;
+}
+
+.alter-dropdown-menu li {
+    width: 100%;
+    height: 50px;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.popover-title, .popover-content  {
+    font-size: 17px;
+    padding: 12px 18px;
+}
+
+.popover-title {
+    font-weight: bold!important;
+    background: #E6E6E6 !important;
+    border-bottom-color: #C5C5C5;
+}
+
+.popover {
+    border-color: #585858;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);
+}
