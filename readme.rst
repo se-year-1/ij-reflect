@@ -1,3 +1,9 @@
+####
+ij-reflect
+####
+
+Student reflection web app for the Dutch high school Het IJburg College. Built in year 1 of the Software Engineering Bachelor at the Amsterdam University of Applied Sciences by Teun Matthijsen, Bram Goos and Misha Rigot.
+
 ###################
 What is CodeIgniter
 ###################
